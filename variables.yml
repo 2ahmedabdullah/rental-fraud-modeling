@@ -1,0 +1,58 @@
+N: 
+    25
+
+CORR_COEFF: 
+    0.95
+
+THRESH: 
+    0.05
+
+PERCENT_THRESH:
+    5
+
+INPUT_DIM: 
+    17
+
+BATCH_SIZE: 
+    16
+
+EPOCHS: 
+    100
+
+BINARY_THRESHOLD: 
+    0.5
+
+NUMERIC_VARS: 
+    ['x.1','x.2','x.7','x.13','x.14']
+
+CATEGORIC_VARS: 
+    ['x.0','x.3','x.4','x.5','x.6','x.8','x.9','x.10','x.11','x.12','x.20','x.16']
+
+MAPPINGS:
+    {'x.0': {'a':0, 'b':1, 'rare':2},
+    'x.3': {'u':0, 'y':1, 'rare':2},
+    'x.4': {'g':0, 'p':1, 'rare':2},
+    'x.5': {'q':0, 'c':1, 'rare':2, 'cc':4, 'w':5, 'x':6, 'i':7, 'aa':8, 'm':9, 'k':10},
+    'x.6': {'v':0, 'h':1, 'bb':2, 'rare':3},
+    'x.8': {'t':0, 'a':1, 'c':2, 'rare':3},
+    'x.9': {'t':0, 'f':1, 'rare':2},
+    'x.10':{'t':0, 'f':1, 'rare':4},
+    'x.11':{'t':0, 'f':1, 'rare':2},
+    'x.12':{'g':0, 's':1, 'rare':2},
+    'x.20':{'t':0, 'f':1, '?':2, 'rare':3},
+    'x.16':{'t':0, 'f':1, '?':2, 'rare':3}}
+
+RARE_CATEGORIES:
+    {'x.0': {'?':'rare'},
+    'x.3': {'?':'rare', 'l':'rare'},
+    'x.4': {'?':'rare', 'gg':'rare'},
+    'x.5': {'e':'rare', 'ff':'rare', 'd':'rare', '?':'rare', 'j':'rare', 'r':'rare'},
+    'x.6': {'ff':'rare', 'z':'rare', '?':'rare','j':'rare','n':'rare','o':'rare','dd':'rare'},
+    'x.8': {'b':'rare'},
+    'x.9': {},
+    'x.10':{},
+    'x.11':{},
+    'x.20':{},
+    'x.16':{},
+    'x.12':{'p':'rare'}}
+
