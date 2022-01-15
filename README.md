@@ -1,3 +1,7 @@
+## GOAL
+
+The aim is to train a model which can classify good and bad customers.
+
 
 ## ASSUMPTIONS & DESIGN CHOICE
 
