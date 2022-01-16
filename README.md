@@ -2,6 +2,7 @@
 
 The aim is to train a model which can classify good and bad customers.
 
+![00](rent.png)
 
 ## ASSUMPTIONS & DESIGN CHOICE
 
