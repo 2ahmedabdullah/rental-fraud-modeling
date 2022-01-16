@@ -2,7 +2,9 @@
 
 The aim is to train a model which can classify good and bad customers.
 
-![00](rent.png)
+<p align="center">
+   <img src="rent.png">
+</p>
 
 ## ASSUMPTIONS & DESIGN CHOICE
 
